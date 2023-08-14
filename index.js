@@ -1,9 +1,9 @@
 function isPalindrome(word) {
-    const reversedString = string.split('').reverse().join('');
-    return string.toLowerCase() === reversedString.toLowerCase();
+    const reversedString = word.split('').reverse().join('');
+    return word.toLowerCase() === reversedString.toLowerCase();
 };
 
-isPalindrome(abba);
+
 /* 
   pseudocode:
 
